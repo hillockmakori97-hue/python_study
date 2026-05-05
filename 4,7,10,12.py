@@ -3,13 +3,13 @@
 # # Hint: Check if it contains an “@” symbol and “.” symbol.
 # # Once you learn functions,revisit this and write this code inside a function
 
-# email=input("enter email")
-# def email_validate(email):
-#     if email.find("@")==-1 and email.find(".")==-1:
-#         res="missing symbol"
-#     return res
-# email_1=email_validate(email)
-# print(email_1)
+email=input("enter email")
+def email_validate(email):
+    if email.find("@")==-1 and email.find(".")==-1:
+        res="missing symbol"
+    return res
+email_1=email_validate(email)
+print(email_1)
 
 
 # # # task 7
@@ -17,24 +17,7 @@
 # # Write that prompts the user to input student marks. The input should be between 0 and 100.Then output the correct grade: 
 # # A > 79 , B - 60 to 79, C  > 49 to 59, D - 40 to 49, E - less 40
 # # Once you learn functions,revisit this and write this code inside a function.
-# marks=int(input("enter student marks"))
-# def grading(marks):
-#     if marks>100 or marks <0:
-#         print("marks out of range ")
-#     else:
-#         if marks >79:
-#             grade="A"
-#         elif marks >=60 and marks<79:
-#             grade="B"
-#         elif marks >=49 and marks<59:
-#             grade="C"
-#         elif marks >=40 and marks<49:
-#             grade="D"
-#         else:
-#             grade="E"
-#         return grade
-# marks_1=grading(marks)
-# print(marks_1)
+
 
 
 
